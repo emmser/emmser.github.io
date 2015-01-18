@@ -7,8 +7,39 @@
 {% include head.html %}
 
  <body>
+ 
+	<!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/emmser">View on GitHub</a>
+          
+          <!--<img src="140313-hage4.JPG" alt="Huvudbild" style="width:100px;height:150px">-->
 
-{{ content }}
+
+          <h1 id="project_title">Emmas Blogg</h1>
+          <h2 id="project_tagline"></h2>
+
+        </header>
+    </div>
+
+	<div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+
+	<!-- Content of page -->
+    {{ content }}
+
+		</section>
+	</div> 
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+    
+   	
+
 
 
 {% include foot.html %}
