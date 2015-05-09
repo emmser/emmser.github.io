@@ -1,5 +1,4 @@
 
-
   <head>
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
     
@@ -10,9 +9,6 @@
 
     <meta name="description" content="{{ site.description }} " />
 
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css">
-    
-    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="{{ '/stylesheets/stylesheet.css' | prepend: site.baseurl }}">    
   </head>
-
-  
